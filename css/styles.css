@@ -11326,7 +11326,25 @@ header.masthead .masthead-heading {
     margin-top: -20px;
     margin-bottom: 30px;
     margin-left: 500px;
-    width: 480px;
+    width: 400px;
+    height:250px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 400px) {
+  .team-members {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .team-members img {
+    object-fit: cover;
+
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    width: 350px;
     height:250px;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
