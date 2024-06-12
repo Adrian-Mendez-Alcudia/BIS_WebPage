@@ -10866,7 +10866,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #1ca3ff;
+  background-color: #212529;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11291,11 +11291,29 @@ header.masthead .masthead-heading {
     margin-top: -20px;
     margin-bottom: 30px;
     margin-left: 500px;
-    width: 640px;
-    height:360px;
+    width: 740px;
+    height:440px;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 }
+
+@media (max-width: 770px) {
+  .team-members {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .team-members img {
+
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    width: 520px;
+    height: 350px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+}
+
 @media (max-width: 600px) {
   .team-members {
     margin-bottom: 3rem;
@@ -11303,11 +11321,13 @@ header.masthead .masthead-heading {
   }
   
   .team-members img {
+    object-fit: cover;
+
     margin-top: -20px;
     margin-bottom: 30px;
     margin-left: 500px;
-    width: 540px;
-    height:260px;
+    width: 480px;
+    height:250px;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 }
